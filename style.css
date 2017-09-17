@@ -134,6 +134,7 @@ footer {
   }
 
   .content .achiever-img {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -144,6 +145,7 @@ footer {
   }
 
   .content .emoji-img {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
