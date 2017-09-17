@@ -1,0 +1,151 @@
+html,body {
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+
+p {
+    font-size: 1.75rem;
+}
+
+#gradient
+{
+  width: 100vw;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+}
+
+.main {
+	padding-top: 35vh;
+}
+
+.text {
+	font-weight: 200;
+	margin: 0 auto;
+  	color: #fff;
+	font-size: 6rem;
+	text-align: center;
+}
+
+
+
+.arrow {
+  text-align: center;
+  margin-top: 35vh;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+
+
+.bg-wrapper {
+  background-image: url("bg-pattern.jpg");
+  padding: 5%;
+}
+
+section {
+  margin: 2rem auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.content h3 {
+  color: #296AA6;
+  font-size: 4rem;
+  margin-bottom: -1.2rem;
+}
+
+.content .hearts {
+  color: red;
+}
+
+.content .achiever-img {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content .achiever-img img {
+  width: auto;
+  height: 40vh;
+  border-radius: 3%;
+  margin: 3vw;
+}
+
+.content .emphasis {
+  color: #296AA6;
+}
+
+.content .emoji-img {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content .shrug, .content .cash {
+  max-width: 40vw;
+  height: 40vh;
+}
+
+footer {
+  text-align: center;
+  padding: 0.5%;
+}
+
+/* media query */
+@media only screen and (max-width: 768px){
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .text {
+    font-size: 3rem;
+  }
+
+  .content .achiever-img {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content .achiever-img img {
+    max-width: 75vw;
+  }
+
+  .content .emoji-img {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
